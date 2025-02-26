@@ -9,3 +9,62 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+.main {
+    background-image: url('https://images.unsplash.com/photo-1488866022504-f2584929ca5f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3RhcnJ5JTIwbmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+form {
+    font-family: Lato;
+
+}
+
+
+h6 {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 25px white, 0 0 5px white;
+}
+
+.testo {
+    font-family: Lato;
+    font-size: 15px;
+
+}
+
+.list-group {
+    color: black;
+    font-size: 15px;
+    font-family: Lato;
+    list-style: none;
+}
+
+.pulsante {
+    width: auto;
+    height: auto;
+
+}
+
+.fecha {
+    margin-top:1%; 
+    color: red;
+    font-family: Lato;
+    font-size: small;
+
+}
+
+li {
+    text-align: left;
+}
